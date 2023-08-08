@@ -32,7 +32,7 @@ const NAV_ITEMS: Array<NavItem> = [
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
-  const currentTheme = theme === "dark" ? "dark" : "light";
+  const currentTheme = theme === "dark" ? "dark" : "dark";
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
 
@@ -100,7 +100,7 @@ export default function Navbar() {
               })}
 
               {/* toggle light / dark mode */}
-              {currentTheme === "dark" ? (
+              {/* {currentTheme === "dark" ? (
                 <button
                   type="button"
                   onClick={() => setTheme("light")}
@@ -116,7 +116,7 @@ export default function Navbar() {
                 >
                   <RiMoonFill size={25} />
                 </button>
-              )}
+              )} */}
             </div>
           </div>
         </div>
