@@ -28,8 +28,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
-            based in the Philippines and currently training as a Cadet Engineer
-            under GCash.
+            currently training as a Cadet Engineer under GCash.
           </p>
           {/* scroll to projects */}
           <Link

@@ -99,7 +99,7 @@ export default function Navbar() {
                 );
               })}
 
-              {/* toggle light / dark mode */}
+              {/* TO DO: Fix light / dark mode */}
               {/* {currentTheme === "dark" ? (
                 <button
                   type="button"
