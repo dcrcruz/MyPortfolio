@@ -7,7 +7,6 @@ const skills = [
   { skill: "Java" },
   { skill: "JavaScript" },
   { skill: "React" },
-  { skill: "Next.js" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Linux" },
