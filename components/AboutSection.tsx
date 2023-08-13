@@ -8,12 +8,13 @@ const skills = [
   { skill: "Java" },
   { skill: "JavaScript" },
   { skill: "React" },
+  { skill: "CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Linux" },
-  { skill: "Git" },
-  { skill: "AWS" },
-  { skill: "Functional Testing" },
+  { skill: "Amazon Web Services" },
+  { skill: "Software Testing" },
+  { skill: "Cisco Networking" },
 ];
 
 const AboutSection = () => {
@@ -30,18 +31,18 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Derick, and I am a{" "}
-              <span className="font-semibold text-teal-600">{"driven "}</span>,
-              <span className="font-semibold text-teal-600">{" eager "}</span>,
-              and
+              Hi, my name is Derick, and I am an aspiring Software Engineer
+              based in Manila, Philippines. I am currently an employee of{" "}
+              <span className="font-semibold text-teal-600">{" GCash"} </span>
+              as a{" "}
               <span className="font-semibold text-teal-600">
-                {" self-motivated "}
-              </span>{" "}
-              Software Engineer based in Manila, Philippines.
+                {" Cadet Engineer (SWE Trainee)"}
+              </span>
+              .
             </p>
             <br />
             <p>
-              I graduated from Mapua University with a degree of{" "}
+              I graduated from Mapua University with a degree in{" "}
               <span className="font-semibold text-teal-600">
                 {"BS Electronics Engineering "}
               </span>{" "}
@@ -53,23 +54,29 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              After graduating, I immediately got a job to pursue a career in
-              the IT Industry. My first job role was a QA Engineer and it became
-              my stepping stone to this vast, unfamiliar, yet exciting new world
-              of software development, and now I am{" "}
+              After graduating, I immediately got a job to pursue a different
+              path: in the IT Industry. My first job role was a{" "}
               <span className="font-semibold text-teal-600">
-                {"training as a Software Engineer "}
+                {"QA Engineer"}
+              </span>{" "}
+              and it became my stepping stone to this vast, unfamiliar, yet
+              exciting new world of software development, and now I am working
+              towards being a{" "}
+              <span className="font-semibold text-teal-600">
+                {"Software Engineer"}
               </span>
               . I always look for opportunities for growth whether be it in my
               personal or professional life.
             </p>
             <br />
             <p>
-              On my free time, I have a wide range of hobbies, like playing
-              basketball, video games, reading, listening to podcasts, watching
-              movies, etc. I also keep my skills relevant by taking courses and
-              practicing them. I have a lot of interests and be busy but I keep
-              all things in balance, which I firmly believe is the secret to a
+              I have a wide range of hobbies, like playing basketball, video
+              games, reading, listening to podcasts, watching movies, etc. I
+              also keep my skills relevant by taking courses and practicing
+              them. I have a lot of interests and be busy but I keep all things
+              in{" "}
+              <span className="font-semibold text-teal-600">{" balance"}</span>,
+              which I firmly believe is the key to a
               <span className="font-semibold text-teal-600">
                 {" good life"}
               </span>

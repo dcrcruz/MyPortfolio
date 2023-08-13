@@ -7,18 +7,12 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 // list of projects
 const projects = [
   {
-    name: "Project 1",
-    description: "Project 1",
+    name: "404 Not Found",
+    description:
+      "Hehe sorry about that. I'm just starting out so I don't have any projects yet, but don't worry, soon this'll be populated with lots of 'em! Don't mind Morty, he's just a placeholder for now. The links below are the repo for this portfolio and something REALLY awesome. Go ahead, click it. I swear it's not a phising link. I work for GCash, we hate those.",
     image: "/placeholder.png",
     github: "https://github.com/dcrcruz/MyPortfolio",
-    link: "https://www.google.com/",
-  },
-  {
-    name: "Project 2",
-    description: "Project 2",
-    image: "/placeholder.png",
-    github: "https://github.com/dcrcruz/MyPortfolio",
-    link: "https://www.google.com/",
+    link: "https://www.youtube.com/watch?v=I1188GO4p1E",
   },
 ];
 

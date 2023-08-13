@@ -28,7 +28,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
-            currently training as a Cadet Engineer under GCash.
+            currently employed and training under GCash.
           </p>
           {/* scroll to about section */}
           <div>
