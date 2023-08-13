@@ -2,17 +2,18 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
+  { skill: "Spring Boot" },
+  { skill: "Unit Testing" },
+  { skill: "Java" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
   { skill: "React" },
   { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Linux" },
+  { skill: "Git" },
+  { skill: "AWS" },
+  { skill: "Functional Testing" },
 ];
 
 const AboutSection = () => {
@@ -30,25 +31,37 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Derick, and I am a{" "}
-              <span className="font-bold">{"driven"}</span>,
-              <span className="font-bold">{"eager"}</span>, and
-              <span className="font-bold">{"self-motivated"}</span> Software
-              Engineer based in Manila, Philippines.
+              <span className="font-semibold text-teal-600">{"driven "}</span>,
+              <span className="font-semibold text-teal-600">{" eager "}</span>,
+              and
+              <span className="font-semibold text-teal-600">
+                {" self-motivated "}
+              </span>{" "}
+              Software Engineer based in Manila, Philippines.
             </p>
             <br />
             <p>
-              I graduated from Mapua University with a BS in Electronics
-              Engineering with a specialization in Advanced Internet Protocol
-              Networking.
+              I graduated from Mapua University with a degree of{" "}
+              <span className="font-semibold text-teal-600">
+                {"BS Electronics Engineering "}
+              </span>{" "}
+              specializing in{" "}
+              <span className="font-semibold text-teal-600">
+                {" Advanced Internet Protocol Networking"}
+              </span>
+              .
             </p>
             <br />
             <p>
               After graduating, I immediately got a job to pursue a career in
               the IT Industry. My first job role was a QA Engineer and it became
               my stepping stone to this vast, unfamiliar, yet exciting new world
-              of software development, and now I am training as a Software
-              Engineer. I love looking for opportunities for growth whether be
-              it in my personal or professional life.
+              of software development, and now I am{" "}
+              <span className="font-semibold text-teal-600">
+                {"training as a Software Engineer "}
+              </span>
+              . I always look for opportunities for growth whether be it in my
+              personal or professional life.
             </p>
             <br />
             <p>
@@ -57,7 +70,10 @@ const AboutSection = () => {
               movies, etc. I also keep my skills relevant by taking courses and
               practicing them. I have a lot of interests and be busy but I keep
               all things in balance, which I firmly believe is the secret to a
-              <span className="font-bold">{"good life"}</span>
+              <span className="font-semibold text-teal-600">
+                {" good life"}
+              </span>
+              .
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
