@@ -44,6 +44,7 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
+      {/* go to About Section */}
       <div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"

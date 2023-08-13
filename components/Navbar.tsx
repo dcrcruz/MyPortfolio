@@ -31,8 +31,8 @@ const NAV_ITEMS: Array<NavItem> = [
 ];
 
 export default function Navbar() {
-  const { theme, setTheme } = useTheme();
-  const currentTheme = theme === "dark" ? "dark" : "dark";
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
 
@@ -98,7 +98,6 @@ export default function Navbar() {
                   </Link>
                 );
               })}
-
               {/* TO DO: Fix light / dark mode */}
               {/* {currentTheme === "dark" ? (
                 <button
