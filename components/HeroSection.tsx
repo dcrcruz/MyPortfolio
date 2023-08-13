@@ -30,22 +30,38 @@ const HeroSection = () => {
             </span>
             currently training as a Cadet Engineer under GCash.
           </p>
-          {/* scroll to projects */}
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
+          {/* scroll to about section */}
+          <div>
+            <div>
+              <Link
+                to="about"
+                className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                About Me
+              </Link>
+              {/* scroll to projects */}
+              <Link
+                to="projects"
+                className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 ml-4"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Projects
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
       {/* go to About Section */}
-      <div className="flex flex-row items-center text-center justify-center ">
+      {/* <div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"
           activeClass="active"
@@ -56,7 +72,7 @@ const HeroSection = () => {
         >
           <HiArrowDown size={35} className="animate-bounce" />
         </Link>
-      </div>
+      </div> */}
     </section>
   );
 };
