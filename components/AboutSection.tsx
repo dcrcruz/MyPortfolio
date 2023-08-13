@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+// list of skills
 const skills = [
   { skill: "Spring Boot" },
   { skill: "Unit Testing" },
