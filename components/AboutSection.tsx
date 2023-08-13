@@ -97,10 +97,16 @@ const AboutSection = () => {
               <h1 className="text-2xl font-bold mb-6">My Certifications</h1>
               <br />
               <div className="flex space-x-4">
-                <a href="https://www.credly.com/badges/945fcf6d-8b72-499a-a4f3-40edc5a92b66/public_url">
+                <a
+                  title="badge - aws"
+                  href="https://www.credly.com/badges/945fcf6d-8b72-499a-a4f3-40edc5a92b66/public_url"
+                >
                   <Image src="/badge-aws.png" alt="" width={350} height={350} />
                 </a>
-                <a href="https://www.credly.com/badges/f601ed01-ae85-44c4-80e5-6cde6a4b50d5/public_url">
+                <a
+                  title="badge - cc"
+                  href="https://www.credly.com/badges/f601ed01-ae85-44c4-80e5-6cde6a4b50d5/public_url"
+                >
                   <Image src="/badge-cc.png" alt="" width={350} height={350} />
                 </a>
               </div>
