@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-1/2">
           {/* profile pic */}
           <Image
-            src="/pic.jpeg"
+            src="/pic.jpg"
             alt=""
             width={325}
             height={325}
