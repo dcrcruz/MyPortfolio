@@ -19,13 +19,6 @@ const projects = [
     github: "https://github.com/dcrcruz/MyPortfolio",
     link: "https://www.google.com/",
   },
-  {
-    name: "Project 3",
-    description: "Project 3",
-    image: "/placeholder.png",
-    github: "https://github.com/dcrcruz/MyPortfolio",
-    link: "https://www.google.com/",
-  },
 ];
 
 const ProjectSection = () => {
